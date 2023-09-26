@@ -1,0 +1,32 @@
+@use "../../styles/variables" as *;
+
+footer {
+  background-color: $siphon;
+  width: 100%;
+  height: 10vh;
+}
+
+img{
+  padding-bottom: 12px;
+}
+p{
+  color: $purplehaze;
+}
+
+.icons {
+  &__container {
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    background-color: $siphon;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  &__wrapper{
+    text-align: center;
+  }
+
+  &__link {
+    text-decoration: none;
+  }
+}

@@ -1,0 +1,41 @@
+@use "./variables" as *;
+
+@mixin headerlinks {
+  color: $ice;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  
+}
+
+@mixin graphpicker {
+  color: $ice;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  
+}
+
+@mixin graphxyaxis {
+color: $ice;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+
+
+}
+
+@mixin elementtitle{
+color: $ice;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+
+}
+
+@mixin elementsubtext {
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+
+}

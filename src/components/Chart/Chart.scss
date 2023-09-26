@@ -1,0 +1,15 @@
+@use "../../styles/variables" as *;
+
+canvas {
+    background-color: rgba(16, 0, 48, 1);
+    ;
+}
+
+.chart{
+    padding: 2rem 2rem;
+    height: 30rem;
+
+    &-wrapper{
+        background-color: $siphon;
+    }
+}
